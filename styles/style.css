@@ -289,8 +289,8 @@ header {
     }
     
     .inner-content {
-        padding-top: 90px;
-        margin-bottom: 70px;
+        padding-top: 180px;
+        margin-bottom: 200px;
     }
 
     .inner-content .title {
@@ -304,8 +304,8 @@ header {
     }
     
     .line {
-        margin-top: 3px;
-        margin-bottom: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .callToAction {
