@@ -41,6 +41,8 @@ header {
     margin: 0 auto;
     padding-top: 217px;
     color: #fff;
+    margin-bottom: 185px;
+    text-align: center;
 }
 
 .inner-content .title {
@@ -67,12 +69,6 @@ header {
     padding-bottom: 60px;
 }
 
-.inner-content {
-    margin-bottom: 185px;
-    text-align: center;
-
-}
-
 .callToAction {
     padding: 20px 30px;
     height: 60px;
@@ -93,4 +89,88 @@ header {
 
 .hober img {
     width: 60%;
+}
+
+@media screen and (max-width: 1024px) {
+    .inner-content .title {
+        font-size: 400%;
+    }   
+
+    .inner-content .text{
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .inner-content {
+        padding-top: 200px;
+        margin-bottom: 150px;
+    }
+    
+    .inner-content .title {
+        font-size: 200%;
+    }
+    
+    .inner-content .text{
+        width: 80%;
+        font-size: 80%;
+    }   
+    
+    .line {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .callToAction {
+        padding: 15px 20px;
+    }
+
+    .down {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .inner-content {
+        padding-top: 150px;
+        margin-bottom: 100px;
+    }
+
+    .inner-content .title {
+        font-size: 150%;
+    }
+
+    .inner-content .text{
+        width: 100%;
+        font-size: 60%;
+        padding-bottom: 35px;
+    }   
+
+    .callToAction {
+        padding: 10px 15px;
+        border-radius: 3px;
+        font-size: 100%;
+    }
+
+    .down {
+        padding-bottom: 59px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    header{
+        font-size: 100%;
+    }
+
+    .logo {
+        padding-left: 
+    }
+    
+    .logo span {
+        padding-left: 3px;
+    }
+
+    header img {
+        width: 20px;
+    }
 }
