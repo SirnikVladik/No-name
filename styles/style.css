@@ -32,6 +32,65 @@ header {
     padding-left: 13px;    
 }
 
+.banner {
+    background: url("../img/bg.jpg") no-repeat top center / cover;
+}
+
+.inner-content {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 217px;
+    color: #fff;
+}
+
+.inner-content .title {
+    font-size: 750%;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.line {
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #15a4fa; /* Цвет линии для остальных браузеров */
+    background-color: #15a4fa; /* Цвет линии для браузера Firefox и Opera */
+    height: 1px;
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.inner-content .text{
+    font-size: 125%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.inner-content {
+    margin-bottom: 185px;
+    text-align: center;
+
+}
+
+.callToAction {
+    padding: 20px 30px;
+    height: 60px;
+    font-size: 125%;
+    color: #fff;
+    background-color: #15a4fa;
+    border-radius: 6px;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+}
+
+.down {
+    padding-bottom: 90px;
+    text-align: center;
+    color: #fff;
+}
+
 .hober img {
     width: 60%;
 }
