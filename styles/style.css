@@ -1,7 +1,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    background: #ddd;
+    background: #f6f9f9;
     margin: 0;
     font-size: 16px;
     overflow-x: hidden;
@@ -31,7 +31,7 @@ header {
 }
 
 .banner {
-    background: url("../img/bg.jpg") no-repeat top center / cover;
+    background: #2d3950 url("../img/bg.jpg") no-repeat top center / cover;;
 }
 
 .inner-content {
@@ -93,6 +93,43 @@ header {
     width: 60%;
 }
 
+.text-block {
+    padding-top: 80px;
+}
+
+.text-block .title {
+    text-align: center;
+    margin: 0;
+    font-size: 250%; 
+    padding-bottom: 30px;
+    color: #2d3950;
+}
+
+.text-block .text {
+    font-size: 125%;
+    margin: 0;
+    text-align: center;
+    color: #999;
+    line-height: 1.7em;
+    padding-bottom: 110px;
+}
+
+.icons {
+    padding-top: 65px;
+}
+
+.block {
+    width: 33.33%;
+    display: inline-block;
+}
+
+.icon {
+    
+    background-color: #5fc3ff;
+    width: 100px;
+    height: 100px;
+    border-radius: 3px;
+}
 @media screen and (max-width: 1024px) {
     .inner-content {
         padding-top: 200px;
