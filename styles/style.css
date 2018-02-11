@@ -220,7 +220,7 @@ header {
 }
 
 form {
-    width: 555px;
+    width: 57%;
     margin: 0 auto;
 }
 
@@ -348,6 +348,7 @@ footer > div {
         margin-top: 10px;
         margin-bottom: 25px;
     }
+
 }
 
 @media screen and (max-width: 1112px) {
@@ -472,10 +473,45 @@ footer > div {
         padding-top: 70px;
         padding-bottom: 70px;
     }
+
+    .subscribe label {
+        padding-left: 0px;
+        font-size: 80%;
+    }
+
+    .send {
+        width: 100px;
+        height: 45px;
+    }
+
+    footer p {
+        font-size: 80%;
+        width: 135px;
+    }
+
+    .link {
+        padding: 6px;
+    }
 }
 @media screen and (max-width: 450px) {
     .block > .text {
         display: none;
+    }
+
+    footer p {
+        margin: 0 auto;
+        padding-bottom: 12px;
+        text-align: center;
+    }
+
+    footer > div {
+        display: block;
+    }
+
+    .links {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
     }
 }
 @media screen and (max-width: 376px) {
@@ -559,6 +595,47 @@ footer > div {
     .image-block > img {
         width: 115px;
     }
+
+    .stayWithUs .title {
+        font-size: 195%;
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+
+    .stayWithUs .text {
+        font-size: 80%;
+        padding-bottom: 25px;
+    }
+
+    .form-input::placeholder {
+        padding-left: 3px;
+        font-size: 90%;
+    }
+
+    .form-input {
+        margin-bottom: 15px;
+    }
+
+    .subscribe {
+        text-align: center;
+    }
+
+    .bottom {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .send {
+        width: 65px;
+        height: 35px;
+        margin-top: 10px;
+        font-size: 90%;
+    }
+
+    footer > div {
+        padding: 15px 0;
+    }
+
 }
 
 @media screen and (max-width: 300px) {
@@ -609,4 +686,18 @@ footer > div {
     .image-block > img {
         width: 100px;
     }
+
+    footer p {
+        width: 95px;
+    }
+    .links {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .link {
+        margin: 5px;
+    }
+
+
 }
