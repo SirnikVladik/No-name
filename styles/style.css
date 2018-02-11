@@ -23,8 +23,10 @@ header {
 
 .logo {
     padding: 32px 0px 32px 25px;
-    height: 100%;
+    display: flex;
 }
+
+
 
 .logo span {
     padding-left: 13px;    
@@ -89,12 +91,10 @@ header {
     color: #fff;
 }
 
-.hober img {
-    width: 60%;
-}
 
 .text-block {
     padding-top: 80px;
+    background-color: #f6f9f9;
 }
 
 .text-block .title {
@@ -115,12 +115,13 @@ header {
 }
 
 .icons {
-    padding-top: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #fff;
 }
 
 .icons > div {
     display: flex;
-    margin-bottom: 150px;
 }
 
 .block {
@@ -143,7 +144,7 @@ header {
     margin: 0 auto;
     margin-top: 25px;
     width: 80%;
-
+    
 }
 
 .icon {
@@ -175,6 +176,27 @@ header {
     color: white;
 }
 
+.hober {
+    background-color: #f6f9f9;
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.hober > div {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image-block {
+    margin: 7px;
+}
+
+.image-block > img {
+    width: 250px;
+}
 
 @media screen and (max-width: 1024px) {
     .inner-content {
@@ -185,7 +207,7 @@ header {
     .inner-content .title {
         font-size: 400%;
     }   
-
+    
     .inner-content .text{
         font-size: 80%;
     }
@@ -211,13 +233,48 @@ header {
     }
 
     .icons {
-        padding-top: 45px;
+        padding-top: 70px;
+        padding-top: 70px;
     }
 }
 
 @media screen and (max-width: 709px) {
     .block > .title {
         min-height: 81px;
+    }
+
+    .image-block > img {
+        width: 205px;
+    }
+
+    .icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .fa-bullhorn {
+        font-size: 38px;
+        padding: 16px 0px;
+    }
+
+    .fa-paper-plane {
+        font-size: 35px;
+        padding: 18px 0px;
+    }
+
+    .fa-mobile {
+        font-size: 63px;
+        padding: 5px 0px;
+    }
+
+    .block > .title {
+        font-size: 110%;
+
+    }
+
+    .block > .text {
+        font-size: 90%;
+        margin-top: 10px;
     }
 }
 
@@ -233,12 +290,13 @@ header {
     }
 
     .logo img {
-        width: 25px;
+        height: 25px;
+        width: 23px;
     }
 
     .inner-content {
-        padding-top: 150px;
-        margin-bottom: 110px;
+        padding-top: 200px;
+        margin-bottom: 148px;
     }
     
     .inner-content .title {
@@ -279,10 +337,13 @@ header {
     }
 
     .icons {
-        padding-top: 20px;
+        padding-top: 40px;
+        padding-top: 40px;
     }
 }
-
+@media screen and (max-width: 450px) {
+    
+}
 @media screen and (max-width: 376px) {
     .logo {
         padding: 15px 0px;
@@ -307,19 +368,28 @@ header {
         margin-top: 10px;
         margin-bottom: 10px;
     }
-
+    
     .callToAction {
         padding: 10px 15px;
         border-radius: 3px;
         font-size: 100%;
     }
-
+    
     .down {
         padding-bottom: 25px;
     }
-
+    
     .block > .title {
         min-height: 108px;
+    }
+
+    .icons {
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .image-block > img {
+        width: 115px;
     }
 }
 
@@ -327,7 +397,7 @@ header {
     header{
         font-size: 100%;
     }
-
+    
     .logo {
         padding: 10px 0px;
     }
@@ -335,25 +405,26 @@ header {
     .logo span {
         padding-left: 3px;
     }
-
+    
     .logo img {
-        width: 20px;
+        height: 18px;
+        width: 17px;
     }
-
+    
     .inner-content {
-        padding-top: 25px;
-        margin-bottom: 10px;
+        padding-top: 75px;
+        margin-bottom: 50px;
     }
-
+    
     .inner-content .title{
         font-size: 100%
     }
-
+    
     .inner-content .text{
         font-size: 30%;
         padding-bottom: 15px;
     }
-
+    
     .callToAction {
         padding: 3px 10px;
         border-radius: 2px;
@@ -362,8 +433,12 @@ header {
     .callToAction:after {
         content: none;
     }
-
+    
     .down {
         padding-bottom: 20px;
+    }
+
+    .image-block > img {
+        width: 100px;
     }
 }
