@@ -285,7 +285,51 @@ form {
     font-size: 110%
 }
 
+footer p{
+    margin: 0;
+    color: #999;
+    width: 180px;
+}
 
+footer > div {
+    padding: 27px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    width: 173px;
+}
+.link {
+    text-decoration-line: none;
+    color: white;
+    background-color: #2d3950;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 2px;
+}
+
+.link > i {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.twitter {
+    background-color: #55acee;    
+}
+
+.google {
+    background-color: #db4437;        
+}
+
+.linkedin {
+    background-color: #0976b4;
+}
 @media screen and (max-width: 1024px) {
     .inner-content {
         padding-top: 200px;
