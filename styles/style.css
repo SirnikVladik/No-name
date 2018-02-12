@@ -8,6 +8,14 @@ body {
     box-sizing: border-box;
 }
 
+p:hover {
+    cursor: default;
+}
+
+span:hover {
+    cursor: default;
+}
+
 header {
     background: #f6f9f9;
     text-transform: uppercase;
@@ -79,6 +87,10 @@ header {
     vertical-align: middle;
     text-decoration: none;
     text-align: center;
+}
+
+.callToAction {
+    background-color: #55acee;
 }
 
 .callToAction:after {
@@ -285,6 +297,11 @@ form {
     font-size: 110%
 }
 
+.send:hover {
+    background-color: #55acee;
+    cursor: pointer;
+}
+
 footer p{
     margin: 0;
     color: #999;
@@ -295,6 +312,10 @@ footer > div {
     padding: 27px 0;
     display: flex;
     justify-content: space-between;
+}
+
+footer p:hover {
+    cursor: default;
 }
 
 .links {
@@ -319,16 +340,32 @@ footer > div {
     background-color: #3b5998;
 }
 
+.facebook:hover {
+    background-color: #15a4fa;
+}
+
 .twitter {
-    background-color: #55acee;    
+    background-color:#15a4fa;    
+}
+
+.twitter:hover {
+    background-color: #55acee;
 }
 
 .google {
     background-color: #db4437;        
 }
 
+.google:hover {
+    background-color: #ff5c4e;
+}
+
 .linkedin {
     background-color: #0976b4;
+}
+
+.linkedin:hover {
+    background-color: #15a4fa;
 }
 @media screen and (max-width: 1024px) {
     .inner-content {
