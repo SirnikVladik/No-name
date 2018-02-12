@@ -3,14 +3,16 @@ var stayWithUs = document.querySelector(".stayWithUs");
 
 callToAction.addEventListener('click', function scrolling() {
     var index = stayWithUs.getBoundingClientRect().top/10;
-    if (index > 0) {
-        var timerId = setTimeout(function name() {
-            window.scrollBy(0, index);
-            scrolling(stayWithUs);
-        }, 10);
-    }
+    var x = 1;
+        var timerId = setInterval(function name() {
+            if(x > 0) {
+                window.scrollBy(0, index);
+                x = stayWithUs.getBoundingClientRect().top - index/10;
+            } else {
+                clearInterval(timerId);
+            }
+        }, 35);
 });
-
 
 
 
