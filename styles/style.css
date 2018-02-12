@@ -79,17 +79,17 @@ header {
 
 .callToAction {
     padding: 20px 30px;
-    height: 60px;
     font-size: 125%;
     color: #fff;
     background-color: #15a4fa;
     border-radius: 6px;
     vertical-align: middle;
-    text-decoration: none;
     text-align: center;
+    border: 0px;
+    cursor: pointer;
 }
 
-.callToAction {
+.callToAction:hover {
     background-color: #55acee;
 }
 
