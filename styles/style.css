@@ -103,7 +103,9 @@ header {
     padding-bottom: 90px;
     text-align: center;
     color: #fff;
+    cursor: pointer;
 }
+
 
 
 .text-block {
